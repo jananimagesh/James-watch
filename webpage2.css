@@ -1,0 +1,90 @@
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.landing1{
+    background:url("https://images.pexels.com/photos/442970/pexels-photo-442970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color:#F1D4E5;
+}
+header{
+    display: flex;
+}
+
+#logo{
+    flex: 3;
+    padding-left: 1em;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 56em;
+}
+nav a{
+    flex: 1;
+    padding-right: 2.5em;
+}
+nav a:hover{
+    color:salmon;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+.text1{
+    color:white;
+    font-size: 2.5em;
+    font-weight: bolder;
+    opacity: 0.6;
+    
+}
+.text2{
+    color:#e8dc56;
+    font-size: 1.8em;
+    margin-top: .3em;
+    font-weight: bolder;
+}
+.whole{
+    margin-top: .75rem;
+}
+.whole button{
+    width: 12vw;
+    margin-top: 2em;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color:#e93f3f;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 3px 2px 3px rgba(237, 149, 54, 0.5);
+
+}
+.callus{
+    font-size: 1.4em;
+    color:#e8dc56;
+    margin-top: .4em;
+    font-weight: bold;
+}
+header h1 i{
+    margin-right: .5em;
+}
+nav h1 a i{
+    margin-right: .5em;
+}
